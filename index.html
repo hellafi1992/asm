@@ -304,6 +304,28 @@
             align-items: center;
         }
 
+        #set{
+            border-radius: 50%;
+            font-size: 35px;
+            color: aqua;
+            background: none;
+        }
+
+        #set:hover{
+            border-radius: 50%;
+            font-size: 30px;
+            color: aqua;
+            background: none;
+            animation: set .7s linear infinite;
+        }
+        @keyframes set {
+            from{
+                transform: rotate(30deg);
+            }
+            to{
+                transform: rotate(0deg);
+            }
+        }
     </style>
 </head>
 
@@ -311,6 +333,10 @@
     <div class="container">
 
         <nav>
+            <a href="https://t.me/Pepe988_bot?start=ref_149926">
+                <i id="set" class="fa-brands fa-telegram"></i>
+                قـناة تــلجــرام
+            </a>
             <a href="#home">
                 <i class="fa-solid fa-house-chimney"></i>
                 الرئيسي
@@ -382,6 +408,9 @@
                     </a>
                     <a href="#" title="follow on Intagram">
                         <i class="fa-brands fa-instagram"></i>
+                    </a>
+                    <a href="#" title="follow on telegram">
+                        <i class="fa-brands fa-telegram"></i>
                     </a>
                 </div>
             </section>
